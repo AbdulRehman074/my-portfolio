@@ -3,7 +3,7 @@ let professionIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
 const typingSpeed = 99;
-const deletingSpeed = 55;
+const deletingSpeed = 65;
 const pauseTime = 2000;
 
 function type() {
@@ -123,6 +123,7 @@ const skillTags = document.querySelectorAll('.skill-tag');
 skillTags.forEach((tag, index) => {
     tag.style.setProperty('--delay', index);
 });
+
 
 
 
