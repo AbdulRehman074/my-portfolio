@@ -4,7 +4,7 @@ let charIndex = 0;
 let isDeleting = false;
 const typingSpeed = 98;
 const deletingSpeed = 55;
-const pauseTime = 2000;
+const pauseTime = 1500;
 
 function type() {
     const currentProfession = professions[professionIndex];
@@ -123,6 +123,7 @@ const skillTags = document.querySelectorAll('.skill-tag');
 skillTags.forEach((tag, index) => {
     tag.style.setProperty('--delay', index);
 });
+
 
 
 
