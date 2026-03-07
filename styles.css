@@ -657,7 +657,7 @@
         }
 
         @media (max-width: 1024px) {
-            .about-content,
+            .about-content, 
             .resume-content,
             .contact-content {
                 flex-direction: column;
@@ -678,6 +678,7 @@
         }
 
         
+
 
 
 
