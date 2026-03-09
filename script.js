@@ -1,4 +1,4 @@
-const professions = ['Data Scientist', 'ML & AI Practioner', 'Focused on  | RAG | GenAI:)'];
+const professions = ['Data Scientist', 'ML & AI Practioner ', 'Focused on  | RAG | GenAI:)'];
 let professionIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -123,6 +123,7 @@ const skillTags = document.querySelectorAll('.skill-tag');
 skillTags.forEach((tag, index) => {
     tag.style.setProperty('--delay', index);
 });
+
 
 
 
