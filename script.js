@@ -18,7 +18,7 @@ function type() {
         charIndex++;
     }
 
-    let typeSpeedVar = isDeleting ? deletingSpeed : typingSpeed;
+    let typeSpeedVar = isDeleting ? deletingSpeed: typingSpeed;
 
     if (!isDeleting && charIndex === currentProfession.length) {
         typeSpeedVar = pauseTime; 
@@ -123,6 +123,7 @@ const skillTags = document.querySelectorAll('.skill-tag');
 skillTags.forEach((tag, index) => {
     tag.style.setProperty('--delay', index);
 });
+
 
 
 
