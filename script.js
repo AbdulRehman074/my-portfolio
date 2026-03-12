@@ -8,7 +8,7 @@ const pauseTime = 2000;
 
 function type() {
     const currentProfession = professions[professionIndex]; 
-    const typingElement = document.getElementById('typing-text');
+    const typingElement = document.getElementById('typing-text'); 
 
     if (isDeleting) {
         typingElement.textContent = currentProfession.substring(0, charIndex - 1);
@@ -123,6 +123,7 @@ const skillTags = document.querySelectorAll('.skill-tag');
 skillTags.forEach((tag, index) => {
     tag.style.setProperty('--delay', index);
 });
+
 
 
 
