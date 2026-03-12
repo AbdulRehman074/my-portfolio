@@ -96,7 +96,7 @@ if (portfolioGrid) {
             if (entry.isIntersecting) {
                 entry.target.querySelectorAll('.portfolio-item').forEach((item, index) => {
                     item.style.setProperty('--delay', index);
-                    item.classList.add('animate');
+                    item.classList.add('animate'); 
                 });
             }
         });
@@ -123,6 +123,7 @@ const skillTags = document.querySelectorAll('.skill-tag');
 skillTags.forEach((tag, index) => {
     tag.style.setProperty('--delay', index);
 });
+
 
 
 
