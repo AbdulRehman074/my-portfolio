@@ -35,7 +35,7 @@ function type() {
 
 document.addEventListener('DOMContentLoaded', function() {
     setTimeout(type, 1000);
-});
+}); 
 
 
 const sections = document.querySelectorAll('section');
