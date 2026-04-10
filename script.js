@@ -33,7 +33,7 @@ function type() {
 }
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() { 
     setTimeout(type, 1000);
 }); 
 
