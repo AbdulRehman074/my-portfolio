@@ -56,7 +56,7 @@ window.addEventListener('scroll', () => {
         if (link.getAttribute('href').substring(1) === current) {
             link.classList.add('active'); 
         }
-    });
+    }); 
 });
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
